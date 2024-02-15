@@ -17,8 +17,15 @@ This setup runs application and proxies on different ports
 | 443  | VLESS  tls  |
 | 443  | Trojan      |
 | 443  | Shadowsocks |
-| 80   | VMess http  |
-| 80   | VLESS  http |
+| 80   | VMess non tls  |
+| 80   | VLESS  non tls |
+## Path info
+| protocol | path |
+| vmess | /vmess - /whatever |
+| vless | /vless|
+| trojan | /trojan-ws |
+| shadowsock | /ss-ws |
+
 Dashboard will be on `http://{YOUR_SERVER_IP}:8000/dashboard`
 
 > these are default, you can change any of ports above from `xray_config.json` file.
