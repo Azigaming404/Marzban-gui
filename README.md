@@ -19,7 +19,7 @@ This setup runs application and proxies on different ports
 | 443  | Shadowsocks |
 | 80   | VMess non tls  |
 | 80   | VLESS  non tls |
-## Path info
+Path info
 | protocol | path |
 | vmess | /vmess - /whatever |
 | vless | /vless|
