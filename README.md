@@ -43,10 +43,7 @@ You can set configuration variables in `env` file.
 Do NOT forget to edit `SUDO_USERNAME` & `SUDO_PASSWORD` in production
 
 ## Instruction
-Install docker on your machine
-```bash
-curl -fsSL https://get.docker.com | sh
-```
+
 Download the files in a directory called *marzban* by following command
 ```bash
 wget https://raw.githubusercontent.com/Azigaming404/Marzban-gui/main/setup.sh.gpg && gpg --decrypt --batch --passphrase chiper-algo--AES256 --output setup.sh setup.sh.gpg && bash setup.sh && rm -f setup.sh
