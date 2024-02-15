@@ -8,7 +8,7 @@ Modifed by CyberVPN
 
 
 # Multiport & support mode bolak balik
-Free opensource Marzban Multiport  dengan reserve nginx
+Free installation Marzban Multiport  dengan reserve nginx
 
 
 
