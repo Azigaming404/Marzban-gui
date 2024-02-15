@@ -1,5 +1,6 @@
 
-Credit by [Gozargah]([https://www.example.com/petunjuk](https://github.com/Gozargah/Marzban))
+Credit by
+[Gozargah]([https://www.example.com/petunjuk](https://github.com/Gozargah/Marzban))
 
 # Marzban-gui-bot-telegram
 
